@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js TypeScript Template
 
-## Getting Started
+A professional-grade Next.js template for rapidly building and deploying apps on Vercel.
 
-First, run the development server:
+## Features
+
+- **Next.js 16** with App Router and Turbopack
+- **TypeScript** in strict mode
+- **Tailwind CSS v4** with CSS-based configuration
+- **ESLint + Prettier** with auto-formatting on commit
+- **Husky + lint-staged** for pre-commit hooks
+- **Commitlint** enforcing conventional commits
+- **Vitest** for unit testing
+- **Playwright** for end-to-end testing
+- **Bundle Analyzer** for build optimization
+- **Vercel Analytics + Speed Insights** built in
+- **GitHub Actions CI/CD** with lint, typecheck, test, build, e2e, and release-please
+- **Claude Code** configuration with hooks and MCP integrations
+- **Dependabot** for automated dependency updates
+- **shadcn/ui ready** — add components with one command
+
+## Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the template
+gh repo create my-app --template OWNER/nextjs-typescript-template --clone
+cd my-app
+
+# Install dependencies
+pnpm install
+
+# Start development
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                  # Next.js App Router
+│   ├── globals.css       # Global styles (Tailwind)
+│   ├── layout.tsx        # Root layout
+│   └── page.tsx          # Home page
+├── components/
+│   └── ui/               # UI components (shadcn/ui)
+├── lib/                  # Utilities and shared logic
+├── public/               # Static assets
+├── e2e/                  # Playwright e2e tests
+├── .claude/              # Claude Code settings and hooks
+├── .github/              # CI/CD workflows, dependabot, PR template
+├── .husky/               # Git hooks (pre-commit, commit-msg)
+└── ...config files
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+| Script              | Description                     |
+| ------------------- | ------------------------------- |
+| `pnpm dev`          | Start dev server with Turbopack |
+| `pnpm build`        | Create production build         |
+| `pnpm start`        | Start production server         |
+| `pnpm lint`         | Run ESLint                      |
+| `pnpm typecheck`    | Run TypeScript type checking    |
+| `pnpm test`         | Run unit tests with Vitest      |
+| `pnpm test:watch`   | Run tests in watch mode         |
+| `pnpm test:e2e`     | Run Playwright e2e tests        |
+| `pnpm format`       | Format all files with Prettier  |
+| `pnpm format:check` | Check formatting                |
+| `pnpm analyze`      | Build with bundle analyzer      |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Adding shadcn/ui
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm dlx shadcn@latest init
+pnpm dlx shadcn@latest add button card dialog
+```
 
-## Deploy on Vercel
+Components will be added to `components/ui/`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel (recommended)
+
+Push to GitHub and import in [Vercel](https://vercel.com/new). Vercel auto-detects Next.js and deploys with zero configuration.
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and add your values:
+
+```bash
+cp .env.example .env.local
+```
+
+Variables prefixed with `NEXT_PUBLIC_` are exposed to the browser.
+
+## Customization
+
+1. Update `app/layout.tsx` metadata (title, description)
+2. Replace `public/` assets with your own
+3. Update `.github/CODEOWNERS` with your GitHub username
+4. Add dependencies as needed for your use case
+
+## License
+
+MIT

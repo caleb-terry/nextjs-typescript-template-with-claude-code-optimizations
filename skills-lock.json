@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "skills": {
+    "auth": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "eac30269e0216d5bcc1ccccefcb971d5b7a66d349dba40195032ad73d773169e"
+    },
+    "bootstrap": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "e8d80b9ffe5f53c517faf4c4dc6836936a5eb8405a418bb46264ac99f657ba49"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
+    },
+    "knowledge-update": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "e2099fd93e85ce3e5792270f0c5035532e23c6f781f846e2a6c611354b8256bf"
+    },
+    "next-cache-components": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "b7ea854c2fb1f4e7ad9acddd64bef2ba547bd1955ba4cf211398dff2cce6dc11"
+    },
+    "next-upgrade": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "c90d3b5b6a4f60961c6d7e704d57a4072e69b94280353fdadb038590115a123f"
+    },
+    "nextjs": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "228adbce76c9036e79d1177e5b9fe05062569b8aea7effb89152f83f6d4603b2"
+    },
+    "react-best-practices": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "4f1da6469280a8293e3e46185e9ed5f477e79728bc02028a89ec3f4abf4fa82e"
+    },
+    "routing-middleware": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "e5bf439f3d1c9674accdfed0b6870cdd932ef72167749cf4ee8c217fc3b90a9a"
+    },
+    "shadcn": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "540c21ccbc3f47aeab596b7d8cb26c00ab19581bd00da7d5865b1036a544cfce"
+    },
+    "turbopack": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "f5369c5efd09055273f89c9ab390dd83f752474ae6a282b0de8dd02e310f51a7"
+    },
+    "vercel-agent": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "cb2be3135ad63138b6df9c0d8d2ed1d206709b6bdf478a7a034e7ff87451861b"
+    },
+    "vercel-cli": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "4284bdb386d8a81599908644746bfcd482cedc401ce32ab515e629e5b1b5a726"
+    },
+    "verification": {
+      "source": "vercel-labs/vercel-plugin",
+      "sourceType": "github",
+      "computedHash": "5457d60c51ccd88b10423eeb51dc556e39f0e604a2e0bfa18d8bcc7646dcdcff"
+    }
+  }
+}

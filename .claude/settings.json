@@ -82,19 +82,14 @@
   },
   "enabledPlugins": {
     "typescript-lsp@claude-plugins-official": true,
-    "context7@claude-plugins-official": true
+    "context7@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
-    "vercel": {
-      "source": {
-        "source": "github",
-        "repo": "vercel/vercel-plugin"
-      }
-    },
     "claude-plugins-official": {
       "source": {
         "source": "github",
-        "repo": "claude-ai/claude-plugins-official"
+        "repo": "anthropics/claude-plugins-official"
       }
     }
   }

@@ -11,10 +11,60 @@
       "sourceType": "github",
       "computedHash": "e8d80b9ffe5f53c517faf4c4dc6836936a5eb8405a418bb46264ac99f657ba49"
     },
+    "claude-md-improver": {
+      "source": "anthropics/claude-plugins-official",
+      "sourceType": "github",
+      "computedHash": "d6707ed0467d9664d0f9d2c44724c8fb1814475ec6d3c62a5d54bbbe807e0775"
+    },
+    "clerk": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "912205692b6c1db07d6933f0584af27c6582484e5d6fac1c13fec4b6a963a528"
+    },
+    "clerk-backend-api": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "cbaf8d4cdff65a03c49e2b7358be37d0b0a69893688d2099df77cc9c0a6e773d"
+    },
+    "clerk-custom-ui": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "9b968af359a75292dc8987f7b12cca0e97c1b66f6d674dab1c6a269b93887a4d"
+    },
+    "clerk-nextjs-patterns": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "57b557ba9ee0578b4b8f9aa3ee07459e211422cb0abe53d9bfb97a27cf9b6d9c"
+    },
+    "clerk-orgs": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "8ab1d06573832ff0c5c9592d1f8e3a9a87aa0ae94b6a0669e1cac4a0e8816ac6"
+    },
+    "clerk-setup": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "790a6272ff39129de170a192cc1966bf84b3a4983b55e9e843b8f979aba56208"
+    },
+    "clerk-testing": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "3d9adf5f21d00c952d5bc63da971cd1b3767ed18ad3b6d60d9c2343a4339492c"
+    },
+    "clerk-webhooks": {
+      "source": "clerk/skills",
+      "sourceType": "github",
+      "computedHash": "4abf889859805f49af3bff8ccfb3a5d195453a5ee0315365821468c74c62d96a"
+    },
     "find-skills": {
       "source": "vercel-labs/skills",
       "sourceType": "github",
       "computedHash": "d31e234f0c90694a670222cdd1dafa853e051d7066beda389f1097c22dadd461"
+    },
+    "frontend-design": {
+      "source": "anthropics/claude-plugins-official",
+      "sourceType": "github",
+      "computedHash": "e8118284a6365753790d44bb2758a6032b3af27fa84696428d9233f2be0f4e78"
     },
     "knowledge-update": {
       "source": "vercel-labs/vercel-plugin",

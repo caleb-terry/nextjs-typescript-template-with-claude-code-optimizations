@@ -81,10 +81,11 @@
     ]
   },
   "enabledPlugins": {
-    "typescript-lsp@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
-    "vercel@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
     "clerk@clerk-skills": true,
     "clerk-custom-ui@clerk-skills": true,
     "clerk-nextjs-patterns@clerk-skills": true,
@@ -107,5 +108,7 @@
         "repo": "clerk/skills"
       }
     }
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["shadcn"]
 }
